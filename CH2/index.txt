@@ -48,3 +48,13 @@ B)1- ok ASCII characteres and numbers stored in memory or in fixed sizes
   5- ok 123472
 
   6- ok 9123498
+
+
+C)1- ok Probrably only one due to the case that they are the same
+        with some parts hidden: adress(%offset, %index, multiplier).
+
+  2- ok Convinience, save time and effort.
+
+  3- ok Help in optimization by doing parallel tasks.
+
+  4- ok Fixed: simpler. Variable: denser (saves memory).
