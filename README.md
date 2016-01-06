@@ -1,4 +1,4 @@
-## Programming_from_ground_up
+## Programming_from_the_ground_up
 Assembly exercises from the book Programming from Ground Up
 
 __Assemble and link asmx86 in linux x64:__

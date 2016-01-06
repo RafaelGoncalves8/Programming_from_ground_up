@@ -1,0 +1,50 @@
+Exercises:
+A - Know the concepts | B - Use the concepts | C - Going further
+----------
+A)1- ok Fetch-execute cycle: store fetch data and instructions in
+        the registers using hardware (bus). The CPU decodes the
+        instructions and then dxecute and the result is stored in
+        another register. CPU does this continuosly when a program
+        is running, so it's called a fetch-execute cycle or a 
+        fetch-decode-execute cycle.
+
+  2- ok Storage locations within a CPU. Without them it would be 
+        impossible to do computation because the base operations in
+        the processor (adding, subtracting, multiplying), occurr
+        only between data stored in these registers.
+  
+  3- ok Using more than a byte (for example a x86 word - 4 bytes).
+        A word can show numbers  up to 2^(4bytes*8bits) - 1 <=> 2^(32)-1
+        <=> 4,294,967,295 (the -1 in the formulae is because we
+        can have 2^(32) numbers but given that 0 is one of these
+        the last number is actually 2^(32)-1.
+
+  4- ok Most of them are a word long (i.e. 4 bytes).
+
+  5- ok Because of the program counter that holds the address that
+        contains the next instruction and the Instruction decoder
+        that interprets it for the execution.
+
+  6- ok For accessing data from memory or not (immediate mode).
+        Other modes: register addressing modes (between registers)
+        direct addressing mode (between memory and register)
+        indexed addressing mode (between memory and register)
+        indirect adressing mode (between pointer nd register)
+        base pointer addressing mode (between base pointer and register)
+        
+  7- ok Holds the address of the next instruction.
+
+
+B)1- ok ASCII characteres and numbers stored in memory or in fixed sizes
+        (name(50 bytes), age (4 bytes), ...) or using pointers to its
+        attributes.
+
+  2- ok Indexed addressing mode
+
+  3- ok 3142
+
+  4- ok 6532
+
+  5- ok 123472
+
+  6- ok 9123498
